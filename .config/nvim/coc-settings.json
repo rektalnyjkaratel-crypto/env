@@ -1,0 +1,33 @@
+{
+  // Psalm
+  "psalm.enable": true,
+  "psalm.commandPath": "vendor/bin/psalm-language-server",
+
+  // PHP (coc-phpls)
+  "php.suggest.basic": false,
+
+  // TypeScript / JavaScript
+  "tsserver.enable": true,
+  "tsserver.formatOnType": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+
+  // Python (coc-pyright)
+  "python.jediEnabled": false,
+
+  // Go (coc-go / gopls)
+  "go.enable": true,
+  "go.goplsPath": "gopls",
+  "go.useLanguageServer": true,
+  "go.goplsOptions": {
+    "staticcheck": true
+  },
+  "go.formatTool": "gofmt",
+  "go.lintTool": "golangci-lint",
+  "go.testFlags": ["-v"],
+  "go.renameIgnoreTests": true,
+
+  // Svelte
+  "svelte.plugin.svelte.format.enable": true
+}
+
